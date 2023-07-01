@@ -30,3 +30,10 @@ function guestPointThree() {
     totalGuestScore += 3
     guest.innerText = totalGuestScore
 }
+// To reset the gamescore //
+function refresh() {
+    totalHomeScore = 0
+    totalGuestScore = 0
+    home.innerText = totalHomeScore;
+    guest.innerText = totalGuestScore;
+}
